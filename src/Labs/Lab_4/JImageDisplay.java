@@ -5,9 +5,9 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class JImageDisplay extends JComponent {
-    private BufferedImage image;
+    public BufferedImage image;
 
-    JImageDisplay(int width, int height) {
+    public JImageDisplay(int width, int height) {
         image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         super.setPreferredSize(new Dimension(width, height));
     }

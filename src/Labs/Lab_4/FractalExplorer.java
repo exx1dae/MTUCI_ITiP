@@ -51,7 +51,7 @@ public class FractalExplorer
     }
 
 
-    private void drawFractal()
+    public void drawFractal()
     {
         for (int x = 0; x < displaySize; x++){
             for (int y = 0; y < displaySize; y++){
@@ -83,7 +83,6 @@ public class FractalExplorer
 
     private class MouseHandler extends MouseAdapter
     {
-
         @Override
         public void mouseClicked(MouseEvent e)
         {

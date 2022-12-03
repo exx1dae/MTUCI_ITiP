@@ -39,6 +39,7 @@ public class ComplexNumber
         this.imaginary = imaginary;
     }
 
+
     /**
      * Adds another <code>ComplexNumber</code> to the current complex number.
      * @param z the complex number to be added to the current complex number
